@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Miloner </title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+<body>
+{% load crispy_forms_tags %}
+<form method="post" action=" {% url 'TradeSite:afterRegist' %}">
+
+
+<div class="jumbotron text-center">
+  <h1>Get a Wallet now</h1>
+  <p>Join the Myloniyr Community </p>
+    <a href="{% url 'TradeSite:login' %}"><button type="button" class="btn btn-link">Already have a wallet</button></a>
+</div>
+
+<h2 class="text-center">Enter a password</h2>
+<div class="container-fluid col-lg-offset-3">
+  <div class="col-sm-8" >
+  {% csrf_token %}
+      <center> {{form | crispy}}</center>
+
+  </div></div>
+    <br />
+
+    <input type="submit" class="btn btn-primary btn-lg center-block" value="Create a Wallet">
+
+</form>
+</body>
+</html>

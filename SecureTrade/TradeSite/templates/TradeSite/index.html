@@ -4,25 +4,16 @@
     <meta charset="UTF-8">
     <title>Welcome to Miloner </title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
+    {% extends 'TradeSite/navbar_header.html' %}
 </head>
 <body>
+{% block content %}
+
+<h1>{{ name }}</h1>
 
 
-<div class="jumbotron text-center">
-  <h1>Get a Wallet now</h1>
-  <p>Join the Myloniyr Community </p>
-    <button type="button" class="btn btn-link">Already have a wallet</button>
-</div>
+{% endblock %}
 
-<h2 class="text-center">Enter a password</h2>
-<div class="container-fluid col-lg-offset-3">
-  <div class="col-sm-8" >
-
-  <input type="password" class="form-control " id="pwd">
-  </div></div>
-    <br />
-    <button type="button" class="btn btn-primary btn-lg center-block">Create a Wallet</button>
 
 
 </body>

@@ -31,13 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'TradeSite',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bootstrap3',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +126,5 @@ STATIC_ROOT = [
     os.path.join(BASE_DIR, "static"),
     'SecureTrade/TradeSite/templates/TradeSite/bootstrap',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

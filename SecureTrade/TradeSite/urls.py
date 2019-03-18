@@ -20,10 +20,13 @@ from . import views
 app_name = 'TradeSite'
 
 urlpatterns = [
-    path(r'index/', views.IndexView.as_view(), name='index'),
-    path(r'login/', views.LoginView.as_view(), name='login'),
-    path(r'wallet/', views.WalletView.as_view(), name='wallet'),
+    path(r'index/', views.IndexView.normaIndex, name='index'),
+    path(r'login/', views.LoginView.login, name='login'),
+    path(r'wallet/', views.WalletView.wallet, name='wallet'),
+    path(r'buy/', views.BuyView.buy, name='buy'),
+    path(r'buy_items/', views.BuyView.buy_items, name='buy_items'),
     path(r'register/', views.register, name='register'),
+    path(r'logout/', views.logout, name='logout'),
     path(r'afterRegist/', views.AfterRegisterView.afterRegister, name='afterRegist'),
 
 ]

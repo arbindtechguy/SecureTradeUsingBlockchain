@@ -14,7 +14,7 @@ class CreateAccount:
         return account_address
 
     def getAccountPrivateKey(accountObj):
-        private_key = accountObj.privateKey
+        private_key = accountObj.privateKey.hex()
         return private_key
 
     def getAccountObjectByPrivateKey(key):

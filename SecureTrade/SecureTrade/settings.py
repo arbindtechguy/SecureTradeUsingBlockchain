@@ -25,7 +25,7 @@ SECRET_KEY = 'we9)=yowvj&zp&@$29wa=td@&f8cd)*)hm36)l@51@_zz8#+rs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0',]
 
 
 # Application definition
@@ -122,9 +122,8 @@ STATIC_URL = '/static/'
 
 
 
-STATIC_ROOT = [
-    os.path.join(BASE_DIR, "static"),
-    'SecureTrade/TradeSite/templates/TradeSite/bootstrap',
-]
+STATIC_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+ )
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'

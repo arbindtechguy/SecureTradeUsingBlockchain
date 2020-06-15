@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Items</title>
+         {% load static %}
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--{% include 'TradeSite/navbar_header.html' %}-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+    <script>
+
+        function btnCancel(){
+            alert(" Cancel ");
+            document.getElementById("btnConfirm").style.display="none";
+            document.getElementById("btnCancel").style.display="none";
+        }
+
+
+        function buyConfirm(){
+            document.getElementById("btnConfirm").style.display="none";
+            document.getElementById("btnCancel").style.display="none";
+        }
+
+    </script>
+
+
+
+</head>
+<body>
+{% block content %}
+
+<div class="container">
+
+  <div class="card-deck" style="...">
+    <div class="card text-center">
+      <img src="{% static 'images/addr.jpg' %}" height="80px"  class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Address</h5>
+        <p class="card-text">{{ addr }}</p>
+
+</button>
+      </div>
+
+    </div>
+    <div class="card text-center" >
+
+
+      <img src="{% static 'images/coins.jpg' %}" height="80px"  class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Balance</h5>
+        <p class="card-text">{{ bal }} </p>
+
+</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <br>
+
+<div class="container">
+
+    <center>
+        <pre>Item id:{{url_item_id}}</pre>
+        <pre>Item price:{{url_item_price}}</pre>
+        <pre>Merchant address:{{url_item_addr}}</pre>
+  <form method="POST" style="display:inline" >
+    {% csrf_token %}
+       <input type="submit" onclick="buyConfirm()" class="btn btn-primary" name="btnConfirm"  id="btnConfirm" value="Confirm">
+
+  <!--<input type="submit" class="btn btn-primary "name="Send" value="Buy" >-->
+    </form>
+    <button type="button" onclick="btnCancel()" class="btn btn-danger" id="btnCancel">Cancel</button>
+
+    </center>
+
+</div>
+
+
+
+{% endblock %}
+</body>
+</html>

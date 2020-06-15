@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login to Secure Trade</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <script>
+
+    </script>
+</head>
+<body>
+
+
+
+{% load crispy_forms_tags %}
+<form method="post" action=" {% url 'TradeSite:index' %}">
+
+<div class="jumbotron text-center">
+  <h1>Log in to Your Wallet</h1>
+  <p>Provide Your Credentials </p>
+    <a href="{% url 'TradeSite:register' %}"><button type="button" class="btn btn-link"> Dont have a wallet</button></a>
+</div>
+
+
+<div class="container-fluid col-lg-offset-3">
+  <div class="col-sm-8" >
+  {% csrf_token %}
+      <center> {{form | crispy}}</center>
+
+  </div></div>
+    <br />
+
+    <input type="submit" class="btn btn-primary btn-lg center-block" value="Securely sign in">
+
+</form>
+
+
+
+{{ pass }}
+{{ privateAddress }}
+{{ account_number }}
+{{ status }}
+
+
+
+</body>
+</html>

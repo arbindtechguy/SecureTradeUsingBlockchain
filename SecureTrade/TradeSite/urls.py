@@ -14,9 +14,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import url
+from django.urls import path, re_path
 
 from . import views
+app_name = 'TradeSite'
 
 urlpatterns = [
-    url(r'^$', views.index, name='index')
+    path(r'index/', views.IndexView.normaIndex, name='index'),
+    path(r'login/', views.LoginView.login, name='login'),
+    path(r'wallet/', views.WalletView.wallet, name='wallet'),
+    path(r'transactions/', views.TransactionView.transactions, name='transactions'),
+    path(r'buy/', views.BuyView.buy, name='buy'),
+    path(r'buy_items/', views.BuyView.buy_items, name='buy_items'),
+    path(r'register/', views.register, name='register'),
+    path(r'logout/', views.logout, name='logout'),
+    path(r'afterRegist/', views.AfterRegisterView.afterRegister, name='afterRegist'),
+
 ]

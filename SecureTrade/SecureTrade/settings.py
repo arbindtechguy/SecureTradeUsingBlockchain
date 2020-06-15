@@ -25,18 +25,21 @@ SECRET_KEY = 'we9)=yowvj&zp&@$29wa=td@&f8cd)*)hm36)l@51@_zz8#+rs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0',]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'TradeSite',
+    'django_tables2',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +57,7 @@ ROOT_URLCONF = 'SecureTrade.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['SecureTrade/TradeSite'],
+        'DIRS': ['SecureTrade/TradeSite/templates/TradeSite'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -111,7 +114,17 @@ USE_L10N = True
 USE_TZ = True
 
 
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+
+
+STATIC_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+ )
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

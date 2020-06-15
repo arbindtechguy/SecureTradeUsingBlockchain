@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Login to Secure Trade</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <script>
+
+    </script>
 </head>
 <body>
 
 
 
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+{% load crispy_forms_tags %}
+<form method="post" action=" {% url 'TradeSite:index' %}">
+
+<div class="jumbotron text-center">
+  <h1>Log in to Your Wallet</h1>
+  <p>Provide Your Credentials </p>
+    <a href="{% url 'TradeSite:register' %}"><button type="button" class="btn btn-link"> Dont have a wallet</button></a>
+</div>
+
+
+<div class="container-fluid col-lg-offset-3">
+  <div class="col-sm-8" >
+  {% csrf_token %}
+      <center> {{form | crispy}}</center>
+
+  </div></div>
+    <br />
+
+    <input type="submit" class="btn btn-primary btn-lg center-block" value="Securely sign in">
+
 </form>
 
 
 
-
-
+{{ pass }}
+{{ privateAddress }}
+{{ account_number }}
+{{ status }}
 
 
 

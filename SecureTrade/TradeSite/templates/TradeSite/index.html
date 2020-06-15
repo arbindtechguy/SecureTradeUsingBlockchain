@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Welcome to Professional Coin </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% include 'TradeSite/navbar_header.html' %}
+</head>
+<body>
+{% block content %}
+<header>
+<br><br><br><br>
+
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'images/wallet.jpeg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Wallets</h2>
+            <p>Create your Pro Coin wallet.</p>
+            <p><a class="btn btn-secondary" href="{% url 'TradeSite:wallet' %}" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'images/buy.jpeg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Buy</h2>
+            <p>Buy the cheapest crytocurrency ever made and trade in the network.</p>
+            <p><a class="btn btn-secondary" href="{% url 'TradeSite:buy' %}" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'images/trade.jpeg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h2>Trade</h2>
+            <p>Trading made easy and well versed.</p>
+            <p><a class="btn btn-secondary" href="http://127.0.0.1:8080/sproj/home.php" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+
+{% endblock %}
+</header>
+
+</body>
+</html>

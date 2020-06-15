@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b8dddff-b80d-409d-b5f8-3d936c687dea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/static/images/coins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/static/images/trade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/transactions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/SecureTrade/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/SecureTrade/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/AES.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/AES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/asCoin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/queryOfSolidity.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/queryOfSolidity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy.html" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy_items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/wallet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/TradeSite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/TradeSite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecureTrade/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SecureTrade/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar_header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/SecureTrade/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="72" column="48" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="10" column="119" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="119" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/walletUI.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="157" column="37" lean-forward="true" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>blockNumber</find>
+      <find>solc</find>
+      <find>abi</find>
+      <find>Quer</find>
+      <find>dig</find>
+      <find>hello</find>
+      <find>CREA</find>
+      <find>view de</find>
+      <find>render_to_response</find>
+      <find>mil</find>
+      <find>trade</find>
+      <find>view</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/temp.temp" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/asCoin.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/bootstrap/index.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/SecureTrade/urls.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/form.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/base.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/bootstrap/homepage.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/MyC.sol.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/MyC.sol" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/MyCInterface.sol" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/MyCFactory.sol" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/Account/account.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/registerSucessful.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/bootstrap/registerSuccessful.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/registerSuccessful.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/apps.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/coin.sol" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/test.sol" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/querySetOfDjano.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/bytecode.json" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/contract_interface" />
+        <option value="$PROJECT_DIR$/SecureTrade/contract.json" />
+        <option value="$PROJECT_DIR$/SecureTrade/MyC.sol" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/walletUI.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/register.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/coin.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/buy.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/abi.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/tests.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/login.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/forms.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/afterRegist.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/ethereum_account.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/AES.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/queryOfSolidity.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/wallet.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/models.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/SecureTrade/settings.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/transactions.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/urls.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/tables.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/views.py" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy_items.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/index.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar_header.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy.html" />
+        <option value="$PROJECT_DIR$/SecureTrade/TradeSite/config.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="653" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project018" type="462c0819:PsiDirectoryNode" />
+              <item name="SecureTrade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project018" type="462c0819:PsiDirectoryNode" />
+              <item name="SecureTrade" type="462c0819:PsiDirectoryNode" />
+              <item name="SecureTrade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project018" type="462c0819:PsiDirectoryNode" />
+              <item name="SecureTrade" type="462c0819:PsiDirectoryNode" />
+              <item name="TradeSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project018" type="462c0819:PsiDirectoryNode" />
+              <item name="SecureTrade" type="462c0819:PsiDirectoryNode" />
+              <item name="TradeSite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project018" type="462c0819:PsiDirectoryNode" />
+              <item name="SecureTrade" type="462c0819:PsiDirectoryNode" />
+              <item name="TradeSite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="TradeSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Project018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Project018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SecureTrade" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SecureTrade/TradeSite/static/images" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite" />
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/static/images" />
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/images" />
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/static" />
+      <recent name="$PROJECT_DIR$/SecureTrade" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/static/images" />
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite" />
+      <recent name="$PROJECT_DIR$/SecureTrade" />
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite" />
+      <recent name="$PROJECT_DIR$/SecureTrade/TradeSite/templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="AES" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecureTrade/TradeSite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecureTrade/TradeSite/AES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asCoin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecureTrade/TradeSite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecureTrade/TradeSite/asCoin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="coin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecureTrade/TradeSite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecureTrade/TradeSite/coin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ethereum_account" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecureTrade/TradeSite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecureTrade/TradeSite/ethereum_account.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Project018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecureTrade/manage.py" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8081" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SecureTrade/TradeSite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SecureTrade/TradeSite/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.AES" />
+      <item itemvalue="Python.asCoin" />
+      <item itemvalue="Python.coin" />
+      <item itemvalue="Python.ethereum_account" />
+      <item itemvalue="Python.tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AES" />
+        <item itemvalue="Python.coin" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.ethereum_account" />
+        <item itemvalue="Python.asCoin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b8dddff-b80d-409d-b5f8-3d936c687dea" name="Default Changelist" comment="" />
+      <created>1547994796999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547994796999</updated>
+    </task>
+    <task id="LOCAL-00001" summary="INIT">
+      <created>1548060220529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548060220529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JAN242019">
+      <created>1548340674133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548340674133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="INIT">
+      <created>1548745008510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548745008510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="18March">
+      <created>1552879400905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552879400906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967742" visible="true" weight="0.23157111" />
+      <window_info id="Structure" order="1" sideWeight="0.5032258" side_tool="true" weight="0.21115242" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15867768" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996277" weight="0.3289256" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4646314" weight="0.27933884" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.53536856" side_tool="true" weight="0.6859504" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4275093" weight="0.38842976" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JAN242019" />
+    <MESSAGE value="INIT" />
+    <MESSAGE value="18March" />
+    <option name="LAST_COMMIT_MESSAGE" value="18March" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SecureTrade/MyCFactory.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/contract.json" />
+    <entry file="file://$PROJECT_DIR$/SecureTrade/MyCInterface.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/bootstrap/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/SecureTrade/test.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/static/images/hello.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/static/images/dig.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/static/images/wallet.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/web3/utils/normalizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/bytecode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/MyC.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1875">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/afterRegist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/Crypto/Util/_raw_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/eth_account/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/eth_keyfile/keyfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/asCoin.py" />
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/AES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/abi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="312" column="10" selection-start-line="312" selection-start-column="9" selection-end-line="312" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/SecureTrade/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/SecureTrade/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/Account/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/coin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="81" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/ethereum_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="25" column="81" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="81" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/transactions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/wallet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy_items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/django">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/querySetOfDjano.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/queryOfSolidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/walletUI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/contract_interface">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="157" column="37" lean-forward="true" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/buy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="10" column="119" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="119" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/SecureTrade/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="72" column="48" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecureTrade/TradeSite/templates/TradeSite/navbar_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-start-column="4" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

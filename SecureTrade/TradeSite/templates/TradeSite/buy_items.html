@@ -10,37 +10,29 @@
     <!--{% include 'TradeSite/navbar_header.html' %}-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
 
+    <script>
+
+        function btnCancel(){
+            alert(" Cancel ");
+            document.getElementById("btnConfirm").style.display="none";
+            document.getElementById("btnCancel").style.display="none";
+        }
 
 
-<script type="text/javascript" >
+        function buyConfirm(){
+            document.getElementById("btnConfirm").style.display="none";
+            document.getElementById("btnCancel").style.display="none";
+        }
 
-      //alert("hello");
-      var enc_addr = {{ addr }}
-      <!--var enc_price = {{ url_item_price }}-->
-      <!--var enc_item_id = {{ url_item_id }}-->
-       alert(enc_addr);
-      var decrypted_addr = CryptoJS.AES.decrypt(enc_addr, "1nh15cs018");
-      alert(decrypted_addr.toString(CryptoJS.enc.Utf8));
+    </script>
 
 
-      <!--//alert(item_obj.seller_addr);-->
-      <!--//  document.write(<?php echo "hello"; ?>);-->
-      <!--// var price = <?php echo "$_SESSION[item_bid]"; ?>;-->
-      <!--// // var price = 22;-->
-      <!--// var seller_addr = <?php echo "$_SESSION[seller_MyC]"; ?>;-->
-      <!--// alert(<?php echo "$_SESSION[seller_MyC]"; ?>);-->
-      <!--// var item_id = <?php echo "$_SESSION[item_id]"; ?>;-->
-      <!--// // window.location.href = `http://www.gorissen.info/Pierre/maps/googleMapLocation.php?lat=${lat}&lon=${long}&setLatLon=Set`;-->
-
-
-</script>
 
 </head>
 <body>
 {% block content %}
 
-
-
+<div class="container">
 
   <div class="card-deck" style="...">
     <div class="card text-center">
@@ -56,7 +48,7 @@
     <div class="card text-center" >
 
 
-      <img src="{% static 'images/addr.jpg' %}" height="80px"  class="card-img-top" alt="...">
+      <img src="{% static 'images/coins.jpg' %}" height="80px"  class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Balance</h5>
         <p class="card-text">{{ bal }} </p>
@@ -66,11 +58,30 @@
     </div>
 
   </div>
+</div>
+
+
 
   <br>
-      <pre>Item id:{{url_item_id}}</pre>
-      <pre>Item price:{{url_item_price}}</pre>
-      <pre>Merchant address:{{url_item_addr}}</pre>
+
+<div class="container">
+
+    <center>
+        <pre>Item id:{{url_item_id}}</pre>
+        <pre>Item price:{{url_item_price}}</pre>
+        <pre>Merchant address:{{url_item_addr}}</pre>
+  <form method="POST" style="display:inline" >
+    {% csrf_token %}
+       <input type="submit" onclick="buyConfirm()" class="btn btn-primary" name="btnConfirm"  id="btnConfirm" value="Confirm">
+
+  <!--<input type="submit" class="btn btn-primary "name="Send" value="Buy" >-->
+    </form>
+    <button type="button" onclick="btnCancel()" class="btn btn-danger" id="btnCancel">Cancel</button>
+
+    </center>
+
+</div>
+
 
 
 {% endblock %}

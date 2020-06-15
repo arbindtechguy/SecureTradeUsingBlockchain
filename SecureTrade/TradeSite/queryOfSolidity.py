@@ -79,3 +79,15 @@ class Queries :
         return tx_receipt
 
 
+    def transferCustom(private_key, address, amoun):
+        account_obj = config.conf.getAccountFromPrivateKey(private_key)
+        txn = Queries.MyC_contract.functions.transfer(address, int(amoun)).buildTransaction({
+            'from': account_obj.address,
+            'nonce': Queries.w3.eth.getTransactionCount(account_obj.address),
+            'gas': 1728712,
+            'gasPrice': Queries.w3.toWei('21', 'gwei')}
+        )
+
+        signed = account_obj.signTransaction(txn)
+        tx_hash = Queries.w3.eth.sendRawTransaction(signed.rawTransaction)
+        config.conf.wait_for_receipt(Queries.w3, tx_hash, 1)

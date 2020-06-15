@@ -1,4 +1,5 @@
 import time
+from eth_account import Account
 
 
 class conf:
@@ -16,6 +17,7 @@ class conf:
         info_json = json.load(f)
     abi = info_json
     contract_address = "0xea409026765aff2ecfa5a1c88436dd8d137f00c1"
+    contract_address = "0x2083eeca384d40968549ad9d06e24b09edb951d0"
     MyC_contract = w3.eth.contract(address=w3.toChecksumAddress(contract_address), abi=abi)
     account_obj = Account.privateKeyToAccount(b"c\x15\x19\xc8\xc1\xf3GV\x07[65\xf8\x89Ul\xa8\x9e$\xff\xf6;\xdeK\x14'\x81;g\xc6\xa2\xcd")
 
@@ -33,9 +35,12 @@ class conf:
     def get_userAccount(self):
         return conf.user_account
 
+    def getAccountFromPrivateKey(key):
+        account_obj = Account.privateKeyToAccount(key)
+        return account_obj
 
 ###
-#0x5E57AfDCa6a3Da629C5efecdaA1e06C1d80715d2
+    #0x5E57AfDCa6a3Da629C5efecdaA1e06C1d80715d2
 ###
 
 

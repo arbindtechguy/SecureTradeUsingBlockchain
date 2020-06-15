@@ -23,6 +23,7 @@ urlpatterns = [
     path(r'index/', views.IndexView.normaIndex, name='index'),
     path(r'login/', views.LoginView.login, name='login'),
     path(r'wallet/', views.WalletView.wallet, name='wallet'),
+    path(r'transactions/', views.TransactionView.transactions, name='transactions'),
     path(r'buy/', views.BuyView.buy, name='buy'),
     path(r'buy_items/', views.BuyView.buy_items, name='buy_items'),
     path(r'register/', views.register, name='register'),
